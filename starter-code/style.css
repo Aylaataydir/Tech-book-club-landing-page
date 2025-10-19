@@ -326,8 +326,11 @@ header {
 
 @media (max-width:40rem) {
   .hero, .container-1, .container-2, .container-3,.container-4, footer {
-    margin-block-end: var(--sp-24) !important;
     margin-inline: var(--sp-16) !important;
+  }
+
+  .hero {
+    margin-block-start: var(--sp-24);
   }
 }
 
